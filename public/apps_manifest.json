@@ -1,0 +1,476 @@
+{
+  "apps": [
+    {
+      "slug": "e-ogugua-portfolio",
+      "displayName": "Emmanuel Ogugua Portfolio",
+      "category": "Core Apps",
+      "githubRepo": "e-ogugua-portfolio",
+      "vercelUrl": "e-ogugua-portfolio.vercel.app",
+      "description": "Personal portfolio of Emmanuel Ogugua — CyberSecurity Expert, Full-Stack Developer & Entrepreneur.",
+      "mvpFeatures": [
+        "Hero landing page with dual persona (developer & entrepreneur)",
+        "Projects section featuring all apps (cards with live links)",
+        "About, Blog, Learn, Services, Contact pages",
+        "Blog nav page with 10 trending blog posts (scrollable)",
+        "Learn nav page with 9–12 curated resources"
+      ],
+      "optionalFeatures": [
+        "Client testimonials",
+        "Freelance gigs booking form",
+        "Dark mode toggle",
+        "Newsletter subscription"
+      ]
+    },
+    {
+      "slug": "emmanuelos-swart-dashboard",
+      "displayName": "EmmanuelOS SWART Dashboard",
+      "category": "Core Apps",
+      "githubRepo": "emmanuelos-swart-dashboard",
+      "vercelUrl": "emmanuelos-swart-dashboard.vercel.app",
+      "description": "Dynamic showcase dashboard for all apps in the portfolio.",
+      "mvpFeatures": [
+        "Read from apps_manifest.json",
+        "Grid of project cards with live links",
+        "Category filters",
+        "SEO-friendly titles and tags"
+      ],
+      "optionalFeatures": [
+        "Search bar",
+        "Analytics dashboard (visits per app)",
+        "User sign-in to bookmark apps"
+      ]
+    },
+    {
+      "slug": "ceowrites-emmanuel-bloghub",
+      "displayName": "CEO Writes - Emmanuel’s Blog",
+      "category": "Core Apps",
+      "githubRepo": "ceowrites-emmanuel-bloghub",
+      "vercelUrl": "ceowrites-emmanuel-bloghub.vercel.app",
+      "description": "SEO-friendly, responsive blog on technology, business, and faith.",
+      "mvpFeatures": [
+        "9–15 initial blog posts (placeholder content)",
+        "Blog categories: Tech, Business, Faith",
+        "Responsive design",
+        "Share buttons"
+      ],
+      "optionalFeatures": [
+        "Tag system",
+        "Newsletter",
+        "Author profile page"
+      ]
+    },
+    {
+      "slug": "ceotr-suite",
+      "displayName": "CEOTR Suite",
+      "category": "Business Apps",
+      "githubRepo": "ceotr-suite",
+      "vercelUrl": "ceotr-suite.vercel.app",
+      "description": "Business ERP dashboard for comprehensive company management.",
+      "mvpFeatures": [
+        "Company overview dashboard",
+        "Employee management",
+        "Inventory tracking",
+        "Reports export"
+      ],
+      "optionalFeatures": [
+        "Multi-tenant support",
+        "3rd-party integrations",
+        "Billing module"
+      ]
+    },
+    {
+      "slug": "poshpoule-farms-suite",
+      "displayName": "PoshPOULE Farms Suite",
+      "category": "Business Apps",
+      "githubRepo": "poshpoule-farms-suite",
+      "vercelUrl": "poshpoule-farms-suite.vercel.app",
+      "description": "Premium agricultural management system with sales and operations tools.",
+      "mvpFeatures": [
+        "Farm records",
+        "Sales dashboard",
+        "Production tracking",
+        "Mobile-first design"
+      ],
+      "optionalFeatures": [
+        "IoT sensor integration",
+        "Marketplace for farm products"
+      ]
+    },
+    {
+      "slug": "roka-tablewater-suite",
+      "displayName": "Roka TableWater Suite",
+      "category": "Business Apps",
+      "githubRepo": "roka-tablewater-suite",
+      "vercelUrl": "roka-tablewater-suite.vercel.app",
+      "description": "Water supply and management solution for residential and commercial use.",
+      "mvpFeatures": [
+        "Order water deliveries",
+        "Customer management",
+        "Distribution scheduling"
+      ],
+      "optionalFeatures": [
+        "Billing integration",
+        "Route optimization for deliveries"
+      ]
+    },
+    {
+      "slug": "emmdra-empireAndLifestyle",
+      "displayName": "Emmdra Empire & Lifestyle Suite",
+      "category": "Business Apps",
+      "githubRepo": "emmdra-empireAndLifestyle",
+      "vercelUrl": "emmdra-empireAndLifestyle.vercel.app",
+      "description": "Platform for lifestyle, fashion, beauty, DIY, and learning.",
+      "mvpFeatures": [
+        "Category navigation",
+        "Shopping showcase",
+        "User login"
+      ],
+      "optionalFeatures": [
+        "Influencer partnerships",
+        "Payment gateway integration"
+      ]
+    },
+    {
+      "slug": "zereth-cakesAndFoods-hub",
+      "displayName": "Zereth Cakes & Foods Hub",
+      "category": "Business Apps",
+      "githubRepo": "zereth-cakesAndFoods-hub",
+      "vercelUrl": "zereth-cakesAndFoods-hub.vercel.app",
+      "description": "Artistic cakes and foods hub — where edible art meets extraordinary taste.",
+      "mvpFeatures": [
+        "Cake catalog",
+        "Contact/order form",
+        "Responsive design"
+      ],
+      "optionalFeatures": [
+        "Recipe blog",
+        "Custom cake designer tool"
+      ]
+    },
+    {
+      "slug": "ai-finance-advisor",
+      "displayName": "AI Finance Advisor",
+      "category": "Developer Apps",
+      "githubRepo": "ai-finance-advisor",
+      "vercelUrl": "ai-finance-advisor.vercel.app",
+      "description": "AI-powered financial planning and management assistant.",
+      "mvpFeatures": [
+        "Budget planning",
+        "Expense tracking",
+        "AI-powered suggestions"
+      ],
+      "optionalFeatures": [
+        "Investment portfolio optimization",
+        "Multi-currency support"
+      ]
+    },
+    {
+      "slug": "crypto-autotrader",
+      "displayName": "Crypto AutoTrader",
+      "category": "Developer Apps",
+      "githubRepo": "crypto-autotrader",
+      "vercelUrl": "crypto-autotrader.vercel.app",
+      "description": "Automated crypto trading platform with strategy execution.",
+      "mvpFeatures": [
+        "Connect to exchange API (demo)",
+        "Run simple trading strategy",
+        "Simulated results dashboard"
+      ],
+      "optionalFeatures": [
+        "Real trade execution",
+        "Strategy marketplace"
+      ]
+    },
+    {
+      "slug": "flowx-exchange",
+      "displayName": "FlowX Exchange",
+      "category": "Developer Apps",
+      "githubRepo": "flowx-exchange",
+      "vercelUrl": "flowx-exchange.vercel.app",
+      "description": "Financial platform for exchange, wallet, and more.",
+      "mvpFeatures": [
+        "Wallet creation",
+        "Deposit/withdraw simulation",
+        "Exchange pairs"
+      ],
+      "optionalFeatures": [
+        "Mobile app version",
+        "KYC & compliance system"
+      ]
+    },
+    {
+      "slug": "cloudcost-optimizer",
+      "displayName": "CloudCost Optimizer",
+      "category": "Developer Apps",
+      "githubRepo": "cloudcost-optimizer",
+      "vercelUrl": "cloudcost-optimizer.vercel.app",
+      "description": "Multi-cloud cost optimization and monitoring dashboard.",
+      "mvpFeatures": [
+        "Track costs by provider",
+        "Budget alerts",
+        "Basic reports"
+      ],
+      "optionalFeatures": [
+        "Auto-scaling recommendations",
+        "Team access management"
+      ]
+    },
+    {
+      "slug": "securevault-cli",
+      "displayName": "SecureVault CLI",
+      "category": "Developer Apps",
+      "githubRepo": "securevault-cli",
+      "vercelUrl": "securevault-cli.vercel.app",
+      "description": "CLI tool for managing secrets, passwords, and API keys securely.",
+      "mvpFeatures": [
+        "Store/retrieve secrets",
+        "Encrypt/decrypt locally",
+        "Command-line interface"
+      ],
+      "optionalFeatures": [
+        "Remote sync",
+        "Team sharing"
+      ]
+    },
+    {
+      "slug": "ceoapivault",
+      "displayName": "CEO API Vault",
+      "category": "Developer Apps",
+      "githubRepo": "ceoapivault",
+      "vercelUrl": "ceoapivault.vercel.app",
+      "description": "Centralized API vault for developers.",
+      "mvpFeatures": [
+        "API key storage",
+        "Usage tracker",
+        "Access control"
+      ],
+      "optionalFeatures": [
+        "Marketplace of APIs",
+        "Auto-generate API docs"
+      ]
+    },
+    {
+      "slug": "codementor-academy",
+      "displayName": "CodeMentor Academy",
+      "category": "Developer Apps",
+      "githubRepo": "codementor-academy",
+      "vercelUrl": "codementor-academy.vercel.app",
+      "description": "Interactive coding and IT/business academy.",
+      "mvpFeatures": [
+        "At least 12 training/courses (placeholder data)",
+        "Course categories (coding, business, IT)",
+        "User progress tracking"
+      ],
+      "optionalFeatures": [
+        "Certificates",
+        "Mentor booking"
+      ]
+    },
+    {
+      "slug": "devflow-cli",
+      "displayName": "DevFlow CLI",
+      "category": "Developer Apps",
+      "githubRepo": "devflow-cli",
+      "vercelUrl": "devflow-cli.vercel.app",
+      "description": "Open-source CLI for developer workflows.",
+      "mvpFeatures": [
+        "Generate project scaffolds",
+        "Run code formatting",
+        "Basic plugin system"
+      ],
+      "optionalFeatures": [
+        "Cloud sync",
+        "Team collaboration"
+      ]
+    },
+    {
+      "slug": "jepligom-ministry",
+      "displayName": "JEPLIGOM Ministry",
+      "category": "Faith & Community",
+      "githubRepo": "jepligom-ministry",
+      "vercelUrl": "jepligom-ministry.vercel.app",
+      "description": "Christian Liberation/Gospel Ministry fellowship.",
+      "mvpFeatures": [
+        "Weekly/monthly events",
+        "Messages & sermons",
+        "Prayer requests"
+      ],
+      "optionalFeatures": [
+        "Livestream integration",
+        "Donations"
+      ]
+    },
+    {
+      "slug": "bible-game-hub",
+      "displayName": "Bible Game Hub",
+      "category": "Faith & Community",
+      "githubRepo": "bible-game-hub",
+      "vercelUrl": "bible-game-hub.vercel.app",
+      "description": "Interactive games for biblical knowledge.",
+      "mvpFeatures": [
+        "Trivia questions",
+        "Leaderboards",
+        "Responsive design"
+      ],
+      "optionalFeatures": [
+        "Multiplayer",
+        "Bible verse learning mode"
+      ]
+    },
+    {
+      "slug": "jpa-eventAndPraise",
+      "displayName": "Jesus Power Arena",
+      "category": "Faith & Community",
+      "githubRepo": "jpa-eventAndPraise",
+      "vercelUrl": "jpa-eventAndPraise.vercel.app",
+      "description": "Faith-based community events & praise platform.",
+      "mvpFeatures": [
+        "Events calendar",
+        "Photo/video gallery",
+        "Community sign-up"
+      ],
+      "optionalFeatures": [
+        "Livestream praise sessions",
+        "Merch shop"
+      ]
+    },
+    {
+      "slug": "agriverse-farmgame",
+      "displayName": "Agriverse Farm Game",
+      "category": "Faith & Community",
+      "githubRepo": "agriverse-farmgame",
+      "vercelUrl": "agriverse-farmgame.vercel.app",
+      "description": "Fun and interactive farming web game.",
+      "mvpFeatures": [
+        "Plant crops",
+        "Harvest simulation",
+        "Farm expansion"
+      ],
+      "optionalFeatures": [
+        "Multiplayer farms",
+        "NFT assets"
+      ]
+    },
+    {
+      "slug": "ceoai-persona-sidekick",
+      "displayName": "CEO AI Persona Sidekick",
+      "category": "Faith & Community",
+      "githubRepo": "ceoai-persona-sidekick",
+      "vercelUrl": "ceoai-persona-sidekick.vercel.app",
+      "description": "AI chatbot with customizable personas.",
+      "mvpFeatures": [
+        "Persona selection",
+        "Basic chat flow",
+        "Knowledge snippets"
+      ],
+      "optionalFeatures": [
+        "Voice assistant",
+        "Save conversation history"
+      ]
+    },
+    {
+      "slug": "ai-utility-hub",
+      "displayName": "AI Utility Hub",
+      "category": "Faith & Community",
+      "githubRepo": "ai-utility-hub",
+      "vercelUrl": "ai-utility-hub.vercel.app",
+      "description": "Comprehensive hub of AI tools and utilities.",
+      "mvpFeatures": [
+        "Tool categories",
+        "3–5 working AI utilities (demo)",
+        "Search bar"
+      ],
+      "optionalFeatures": [
+        "Marketplace of AI tools",
+        "User accounts"
+      ]
+    },
+    {
+      "slug": "clarity-tracker",
+      "displayName": "Clarity Tracker",
+      "category": "Personal & Productivity",
+      "githubRepo": "clarity-tracker",
+      "vercelUrl": "clarity-tracker.vercel.app",
+      "description": "Weather + productivity tracker app.",
+      "mvpFeatures": [
+        "Weather API integration",
+        "Daily tasks list",
+        "Simple dashboard"
+      ],
+      "optionalFeatures": [
+        "Calendar sync",
+        "Mood tracking"
+      ]
+    },
+    {
+      "slug": "lifeloop-productivity",
+      "displayName": "LifeLoop Productivity",
+      "category": "Personal & Productivity",
+      "githubRepo": "lifeloop-productivity",
+      "vercelUrl": "lifeloop-productivity.vercel.app",
+      "description": "Comprehensive productivity suite.",
+      "mvpFeatures": [
+        "Task manager",
+        "Notes",
+        "Goal tracker"
+      ],
+      "optionalFeatures": [
+        "Pomodoro timer",
+        "Team collaboration"
+      ]
+    },
+    {
+      "slug": "ppf-gamesAndSimulations",
+      "displayName": "PoshPOULE Farms Games & Simulations",
+      "category": "Personal & Productivity",
+      "githubRepo": "ppf-gamesAndSimulations",
+      "vercelUrl": "ppf-gamesAndSimulations.vercel.app",
+      "description": "Farm-themed games and simulations (C++ showcase).",
+      "mvpFeatures": [
+        "Farm game demo in C++",
+        "Web wrapper UI",
+        "Leaderboard"
+      ],
+      "optionalFeatures": [
+        "Extra mini games",
+        "Multi-player mode"
+      ]
+    },
+    {
+      "slug": "persona-typing-master",
+      "displayName": "Persona Typing Master",
+      "category": "Personal & Productivity",
+      "githubRepo": "persona-typing-master",
+      "vercelUrl": "persona-typing-master.vercel.app",
+      "description": "Typing drills and training with different personas.",
+      "mvpFeatures": [
+        "Typing test",
+        "Persona modes (hacker, secretary, student)",
+        "Stats dashboard"
+      ],
+      "optionalFeatures": [
+        "Multiplayer typing races",
+        "Custom lesson creation"
+      ]
+    },
+    {
+      "slug": "poshpoule-scratch-game",
+      "displayName": "PoshPOULE Farms Scratch Game",
+      "category": "Personal & Productivity",
+      "githubRepo": "poshpoule-scratch-game",
+      "vercelUrl": "poshpoule-scratch-game.vercel.app",
+      "description": "Interactive farm simulation game built in Scratch with web wrapper.",
+      "mvpFeatures": [
+        "Scratch game integration",
+        "Web-based player",
+        "Farm simulation gameplay",
+        "Upload .sb3 or HTML files"
+      ],
+      "optionalFeatures": [
+        "Leaderboards",
+        "Save game progress",
+        "Multiple farm scenarios"
+      ]
+    }
+  ]
+}
