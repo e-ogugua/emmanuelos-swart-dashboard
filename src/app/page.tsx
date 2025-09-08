@@ -41,14 +41,14 @@ export default function Home() {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      'Personal': 'bg-purple-100 text-purple-800',
-      'Business': 'bg-blue-100 text-blue-800', 
-      'Finance': 'bg-green-100 text-green-800',
-      'AI/Tech': 'bg-orange-100 text-orange-800',
-      'Faith': 'bg-yellow-100 text-yellow-800',
-      'Games': 'bg-pink-100 text-pink-800'
+      'Personal': 'bg-gradient-to-r from-purple-100 to-purple-200 text-purple-800 shadow-purple-200',
+      'Business': 'bg-gradient-to-r from-blue-100 to-blue-200 text-blue-800 shadow-blue-200', 
+      'Finance': 'bg-gradient-to-r from-green-100 to-green-200 text-green-800 shadow-green-200',
+      'AI/Tech': 'bg-gradient-to-r from-orange-100 to-orange-200 text-orange-800 shadow-orange-200',
+      'Faith': 'bg-gradient-to-r from-yellow-100 to-yellow-200 text-yellow-800 shadow-yellow-200',
+      'Games': 'bg-gradient-to-r from-pink-100 to-pink-200 text-pink-800 shadow-pink-200'
     }
-    return colors[category as keyof typeof colors] || 'bg-gray-100 text-gray-800'
+    return colors[category as keyof typeof colors] || 'bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 shadow-gray-200'
   }
 
   if (isLoading) {
@@ -79,18 +79,18 @@ export default function Home() {
           </p>
           
           {/* Category Filter */}
-          <div className="flex flex-wrap justify-center gap-2 mb-8">
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg ${
                   selectedCategory === category
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-white text-gray-600 hover:bg-gray-100'
+                    ? 'bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-blue-300'
+                    : 'bg-white text-gray-600 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 hover:text-blue-700 border border-gray-200 hover:border-blue-300'
                 }`}
               >
-                {category}
+                {category === 'All' ? '🌟 All' : category}
               </button>
             ))}
           </div>
@@ -109,13 +109,13 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
-              className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6"
+              className="bg-white rounded-lg shadow-sm hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-br hover:from-white hover:to-blue-50 p-6 border border-gray-100 hover:border-blue-200"
             >
               <div className="flex items-start justify-between mb-3">
                 <h3 className="text-lg font-semibold text-gray-900 line-clamp-2">
                   {app.displayName}
                 </h3>
-                <span className={`px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(app.category)}`}>
+                <span className={`px-3 py-1 rounded-full text-xs font-medium transition-all duration-300 hover:scale-110 ${getCategoryColor(app.category)}`}>
                   {app.category}
                 </span>
               </div>
@@ -141,17 +141,17 @@ export default function Home() {
                   href={app.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm py-2 px-3 rounded-md text-center transition-colors"
+                  className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-sm py-2 px-3 rounded-md text-center transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
                 >
-                  View Live
+                  🚀 View Live
                 </a>
                 <a
                   href={app.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 border border-gray-300 hover:border-gray-400 text-gray-700 text-sm py-2 px-3 rounded-md text-center transition-colors"
+                  className="flex-1 border border-gray-300 hover:border-blue-400 hover:bg-blue-50 text-gray-700 hover:text-blue-700 text-sm py-2 px-3 rounded-md text-center transition-all duration-300 transform hover:scale-105"
                 >
-                  GitHub
+                  💻 GitHub
                 </a>
               </div>
             </motion.div>
